@@ -18,7 +18,7 @@ export const Addtransaction = () => {
 
         addTransaction(newTransaction);
         setAmount("");
-        setAmount("");
+        setText("");
     
                               
     }

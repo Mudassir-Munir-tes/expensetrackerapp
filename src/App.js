@@ -31,7 +31,7 @@ function App() {
 
 
   return ( 
-    <div className="container" style={{backgroundColor:"mehroon"}}>
+    <div className="container" >
     <div className={classes.root}>
       <Grid
   container
