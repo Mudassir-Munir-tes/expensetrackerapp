@@ -4,6 +4,8 @@ import {globalContext} from '../context/globalstate';
 import { makeStyles } from '@material-ui/core/styles';
 import List from '@material-ui/core/List';
 import ListItem from '@material-ui/core/ListItem';
+import Grid from '@material-ui/core/Grid';
+
 
 import ListItemSecondaryAction from '@material-ui/core/ListItemSecondaryAction';
 import ListItemText from '@material-ui/core/ListItemText';
@@ -37,35 +39,30 @@ export const Historylist = () => {
 
     const {transactions}= useContext(globalContext);
     const classes = useStyles();
-    const [dense, setDense] = React.useState(false);
-    const [secondary, setSecondary] = React.useState(false);
+    //const [dense, setDense] = React.useState(false);
+    //const [secondary, setSecondary] = React.useState(false);
     
    
 
     return (
-        <>
+       <>
         <Typography variant="h6" className={classes.title}>
             History
           </Typography>
           <div className={classes.demo}>
             <List>
-
-            <ListItem>
-            <ul className="list">
+                
                 {transactions.map(transaction =>(<Transaction key={transaction.id} transaction={transaction}/>
                     ))}
+                
+            
 
-            </ul>
-
-            <ListItemSecondaryAction>
-                    <IconButton edge="end" aria-label="delete">
-                      <DeleteIcon />
-                    </IconButton>
-                  </ListItemSecondaryAction>
-            </ListItem>
+          
 
             </List>
           </div>
-          </>
-    )
-}
+         </>
+
+    );
+  }
+    
