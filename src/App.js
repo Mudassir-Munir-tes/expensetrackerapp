@@ -64,9 +64,9 @@ function App() {
         <Addtransaction />
         </Grid>
         
-        <Grid item >
+        <Grid item xs={12}>
         <img src={logo} className="App-logo" alt="logo" />
-        Developed by MUDASSIR MUNIR
+             Developed by MUDASSIR MUNIR
         </Grid>
         
      
