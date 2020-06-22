@@ -11,7 +11,7 @@ import IconButton from '@material-ui/core/IconButton';
 import { makeStyles } from '@material-ui/core/styles';
 
 
-const useStyles = makeStyles((theme) => ({
+/*const useStyles = makeStyles((theme) => ({
     root: {
       flexGrow: 1,
       maxWidth: 752,
@@ -22,7 +22,7 @@ const useStyles = makeStyles((theme) => ({
     title: {
       margin: theme.spacing(4, 0, 2),
     },
-  }));
+  })); */
  
 
 export const Transaction = ({transaction}) => {
