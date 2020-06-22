@@ -65,7 +65,7 @@ function App() {
         </Grid>
         
         <Grid item xs={12}>
-        <img src={logo} className="App-logo" alt="logo" />
+        <img src={logo} className="App-logo" alt="logo" /><br></br>
              Developed by MUDASSIR MUNIR
         </Grid>
         
