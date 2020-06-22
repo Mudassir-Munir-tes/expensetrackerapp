@@ -31,7 +31,7 @@ function App() {
 
 
   return ( 
-    <div className="container" >
+    <div className="APP-header">
     <div className={classes.root}>
       <Grid
   container
