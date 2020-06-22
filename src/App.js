@@ -31,7 +31,7 @@ function App() {
 
 
   return ( 
-    <div className="App-header">
+    
     <div className="container" >
     <div className={classes.root}>
       <Grid
@@ -74,7 +74,7 @@ function App() {
     </Grid>
     </div>
     </div>
-    </div> 
+     
   );
 }
 
