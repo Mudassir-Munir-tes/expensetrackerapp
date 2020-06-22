@@ -10,13 +10,15 @@ export const Addtransaction = () => {
 
     const onSubmit= e =>{
         e.preventDefault();
-        e.setState({ value: ""})
+       
     
         const newTransaction={ id: Math.floor(Math.random() * 10000000),
                                text,
                                amount: +amount   }
 
         addTransaction(newTransaction);
+        setAmount("");
+        setAmount("");
     
                               
     }

@@ -22,11 +22,7 @@ const useStyles = makeStyles((theme) => ({
     flexGrow: 1,
     
   },
-  paper: {
-    padding: theme.spacing(2),
-    textAlign: 'center',
-    color: theme.palette.text.secondary,
-  },
+  
 }));
 
 
@@ -35,12 +31,11 @@ function App() {
 
 
   return ( 
-    
+    <div style={{backgroundColor:"mehroon"}}>
     <div className={classes.root} className="container" >
       <Grid
   container
   direction="column"
-  
   spacing={3}>
     <GlobalProvider className="App">
     <Grid item >
@@ -77,7 +72,7 @@ function App() {
     </GlobalProvider>
     </Grid>
     </div>
-    
+    </div>
      
   );
 }
