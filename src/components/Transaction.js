@@ -33,7 +33,7 @@ export const Transaction = ({transaction}) => {
     //const classes = useStyles();
    
     return (
-        <div>
+        <div style={{backgroundColor:"mehroon"}}>
             <List className={transaction.amount < 0 ? 'minus' : 'plus'}>
             
             
