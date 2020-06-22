@@ -3,15 +3,15 @@ import {Transaction} from '../components/Transaction.js';
 import {globalContext} from '../context/globalstate';
 import { makeStyles } from '@material-ui/core/styles';
 import List from '@material-ui/core/List';
-import ListItem from '@material-ui/core/ListItem';
+//import ListItem from '@material-ui/core/ListItem';
 import Grid from '@material-ui/core/Grid';
 
 
-import ListItemSecondaryAction from '@material-ui/core/ListItemSecondaryAction';
-import ListItemText from '@material-ui/core/ListItemText';
-import DeleteIcon from '@material-ui/icons/Delete';
+//import ListItemSecondaryAction from '@material-ui/core/ListItemSecondaryAction';
+//import ListItemText from '@material-ui/core/ListItemText';
+//import DeleteIcon from '@material-ui/icons/Delete';
 import Typography from '@material-ui/core/Typography';
-import IconButton from '@material-ui/core/IconButton';
+i//mport IconButton from '@material-ui/core/IconButton';
 
 const useStyles = makeStyles((theme) => ({
     root: {
