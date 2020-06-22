@@ -45,7 +45,8 @@ export const Historylist = () => {
    
 
     return (
-       <>
+       <Grid container
+       direction="column" >
         <Typography variant="h6" className={classes.title}>
             History
           </Typography>
@@ -61,7 +62,7 @@ export const Historylist = () => {
 
             </List>
           </div>
-         </>
+         </Grid>
 
     );
   }

@@ -20,6 +20,7 @@ import Grid from '@material-ui/core/Grid';
 const useStyles = makeStyles((theme) => ({
   root: {
     flexGrow: 1,
+    
   },
   paper: {
     padding: theme.spacing(2),
@@ -34,7 +35,8 @@ function App() {
 
 
   return ( 
-    <div className={classes.root} className="container">
+    
+    <div className={classes.root} className="container" >
       <Grid
   container
   direction="column"
@@ -66,12 +68,16 @@ function App() {
         <Addtransaction />
         </Grid>
         
-      
+        <Grid item >
         <img src={logo} className="App-logo" alt="logo" />
+        Developed by MUDASSIR MUNIR
+        </Grid>
+        
      
     </GlobalProvider>
     </Grid>
     </div>
+    
      
   );
 }
