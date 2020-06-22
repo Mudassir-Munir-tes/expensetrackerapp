@@ -6,7 +6,7 @@ import ListItem from '@material-ui/core/ListItem';
 import ListItemSecondaryAction from '@material-ui/core/ListItemSecondaryAction';
 import ListItemText from '@material-ui/core/ListItemText';
 import DeleteIcon from '@material-ui/icons/Delete';
-import Typography from '@material-ui/core/Typography';
+//import Typography from '@material-ui/core/Typography';
 import IconButton from '@material-ui/core/IconButton';
 import { makeStyles } from '@material-ui/core/styles';
 
@@ -28,9 +28,9 @@ const useStyles = makeStyles((theme) => ({
 export const Transaction = ({transaction}) => {
 
     const { deleteTransaction }=useContext(globalContext);
-    const sign = transaction.amount < 0 ? '-' : '+'; 
-    const {transactions}= useContext(globalContext);
-    const classes = useStyles();
+    //const sign = transaction.amount < 0 ? '-' : '+'; 
+    //const {transactions}= useContext(globalContext);
+    //const classes = useStyles();
    
     return (
         <div>

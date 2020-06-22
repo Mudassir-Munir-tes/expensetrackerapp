@@ -14,14 +14,14 @@ import {Historylist} from './Interface/historylist';
 import './App.css';
 import './layout.css';
 import { makeStyles } from '@material-ui/core/styles';
-import Paper from '@material-ui/core/Paper';
+//import Paper from '@material-ui/core/Paper';
 import Grid from '@material-ui/core/Grid';
 
 const useStyles = makeStyles((theme) => ({
   root: {
     flexGrow: 1,
     
-  },
+  }
   
 }));
 
@@ -31,8 +31,8 @@ function App() {
 
 
   return ( 
-    <div style={{backgroundColor:"mehroon"}}>
-    <div className={classes.root} className="container" >
+    <div className="container" style={{backgroundColor:"mehroon"}}>
+    <div className={classes.root}>
       <Grid
   container
   direction="column"
